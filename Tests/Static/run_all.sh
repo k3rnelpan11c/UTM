@@ -19,6 +19,7 @@ case "$mode" in
         run check_pbxproj_refs.py
         run check_scripting_bridge.py
         run ../../scripts/gen-preview-smoke.py --check
+        run check_test_targets.py
         run check_sdef_codes.py --no-sdp ;;
     all)
         run check_l10n_format.py
@@ -26,6 +27,7 @@ case "$mode" in
         run check_pbxproj_refs.py
         run check_scripting_bridge.py
         run ../../scripts/gen-preview-smoke.py --check
+        run check_test_targets.py
         run check_sdef_codes.py ;;
     *)
         echo "usage: $0 [--no-sdp | --sdp-only]" >&2
