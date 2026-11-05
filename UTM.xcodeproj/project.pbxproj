@@ -1392,6 +1392,10 @@
 		155F416644B44533B641D0BD /* wizard-summary-apple.macOS27.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8CD162E8364B60BD1039AD /* wizard-summary-apple.macOS27.png */; };
 		26FA7E3560BD4FE394D0FD4C /* wizard-summary-linux.macOS27.png in Resources */ = {isa = PBXBuildFile; fileRef = 0852808FA4B845229F32BE26 /* wizard-summary-linux.macOS27.png */; };
 		4C7572F4B94043D694924692 /* wizard-summary-windows.macOS27.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF23EEB62B94FE2A98E705B /* wizard-summary-windows.macOS27.png */; };
+		A9E063512C2748E5976BED2C /* UTMAccessibilityID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDBED3E5F74148807C75F9 /* UTMAccessibilityID.swift */; };
+		80BADF4993CD463FB4ED15D4 /* UTMAccessibilityID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDBED3E5F74148807C75F9 /* UTMAccessibilityID.swift */; };
+		F326382FB49D42669F07A619 /* UTMAccessibilityID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDBED3E5F74148807C75F9 /* UTMAccessibilityID.swift */; };
+		0C62A9C1DDA34210B8274C81 /* UTMAccessibilityID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDBED3E5F74148807C75F9 /* UTMAccessibilityID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2430,6 +2434,7 @@
 		FC8CD162E8364B60BD1039AD /* wizard-summary-apple.macOS27.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "wizard-summary-apple.macOS27.png"; sourceTree = "<group>"; };
 		0852808FA4B845229F32BE26 /* wizard-summary-linux.macOS27.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "wizard-summary-linux.macOS27.png"; sourceTree = "<group>"; };
 		2FF23EEB62B94FE2A98E705B /* wizard-summary-windows.macOS27.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "wizard-summary-windows.macOS27.png"; sourceTree = "<group>"; };
+		BAEDBED3E5F74148807C75F9 /* UTMAccessibilityID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTMAccessibilityID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3470,6 +3475,7 @@
 				CED779E42C78C82A00EB82AE /* UTMTips.swift */,
 				CE88A1632E24E4C000EAA28E /* VMKeyboardMap.h */,
 				CE88A1642E24E4C000EAA28E /* VMKeyboardMap.m */,
+				BAEDBED3E5F74148807C75F9 /* UTMAccessibilityID.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -4571,6 +4577,7 @@
 				CE88A1592E247D0100EAA28E /* UTMActionIntent.swift in Sources */,
 				841619A6284315C1000034B2 /* UTMQemuConfiguration.swift in Sources */,
 				CE88A1622E24B2B400EAA28E /* UTMInputIntent.swift in Sources */,
+				A9E063512C2748E5976BED2C /* UTMAccessibilityID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4797,6 +4804,7 @@
 				84C4D9042880CA8A00EC3B2B /* VMSettingsAddDeviceMenuView.swift in Sources */,
 				CE88A1562E247CCE00EAA28E /* UTMIntent.swift in Sources */,
 				CEBE820526A4C1B5007AAB12 /* VMWizardDrivesView.swift in Sources */,
+				80BADF4993CD463FB4ED15D4 /* UTMAccessibilityID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4990,6 +4998,7 @@
 				8471772927CD3CAB00D3A50B /* DetailedSection.swift in Sources */,
 				841E58D62893D01B00137A20 /* UTMApp.swift in Sources */,
 				84909A9227CADAE0005605F1 /* UTMUnavailableVMView.swift in Sources */,
+				F326382FB49D42669F07A619 /* UTMAccessibilityID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5162,6 +5171,7 @@
 				CEF7F62A2AEEDCC400E34952 /* VMConfigNetworkPortForwardView.swift in Sources */,
 				CEF7F62B2AEEDCC400E34952 /* UTMDownloadSupportToolsTask.swift in Sources */,
 				CEF7F62C2AEEDCC400E34952 /* UTMQemuConfiguration.swift in Sources */,
+				0C62A9C1DDA34210B8274C81 /* UTMAccessibilityID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
